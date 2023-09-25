@@ -56,7 +56,7 @@ print("Withdraw Rs.",wamt3,"From A/c No.",acno2)
 bank.make_withdrawal(acno2, wamt3)
 acno3 = "SB-134"
 print("A/c. No.",acno3)
-bank.check_balance(acno3)  # Non-existent account number
+bank.check_balance(acno3) 
 
 
 
